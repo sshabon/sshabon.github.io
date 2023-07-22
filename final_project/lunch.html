@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menus</title>
+  <link rel="stylesheet" href="/Users/sarashabon/Desktop/ENGH375/final_project/stylesheet.css">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: "Mermaid", sans-serif;
+      margin: 0;
+      /* Set the background image and size */
+      background-size: cover;
+      background-color: antiquewhite;
+      background-position: center;
+      color: #065341;
+      text-align: center;
+      padding: 5rem 0; /* Adjust the padding to position the text */
+    }
+    header {
+      color: #065341;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      color: #065341;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #333;
+      color:#065341;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+    text-align: center;
+    padding: 0.5rem;
+    }
+    nav a {
+    color: #065341; /* Set the color of the links inside the nav element to white */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make the links inline elements */
+    margin: 0 0.5rem; /* Add some spacing between the links */
+    background-color: transparent; /* Set the background of the links to transparent */
+    padding: 0.25rem 0.5rem; /* Add some padding to the links (optional) */
+    }
+     /* Create a grid layout to display three foods per row */
+     .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+      grid-gap: 20px; /* Spacing between grid items */
+    }
+
+    /* Style each food item in the menu */
+    .food-item {
+      background-color: transparent; /* Semi-transparent white background */
+      padding: 20px;
+      text-align: center;
+    }
+       /* Style the button links */
+    nav .menu-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #065341;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    /* Apply different background colors to the buttons on hover */
+    nav .menu-button:hover {
+      background-color: #2d8f6d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h3>The Quirky Spoon Cafe</h3>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="menu.html">Menus</a> |
+    <a href="about.html">About Us</a> |
+    <a href="order.html">Order</a>
+  </nav>
+
+  <h1>MENUS</h1>
+  <nav>
+    <a href="menu.html" class="menu-button">Dinner</a> 
+    <a href="lunch.html" class="menu-button">Lunch</a> 
+    <a href="drinks.html" class="menu-button">Drinks</a> 
+  </nav>
+
+  <div class="menu-grid">
+    <!-- First food item -->
+    <div class="food-item">
+      <h2>Food Item 1</h2>
+      <p>Description of Food Item 1</p>
+    </div>
+
+    <!-- Second food item -->
+    <div class="food-item">
+      <h2>Food Item 2</h2>
+      <p>Description of Food Item 2</p>
+    </div>
+
+    <!-- Third food item -->
+    <div class="food-item">
+      <h2>Food Item 3</h2>
+      <p>Description of Food Item 3</p>
+    </div>
+
+   
+    <td align="center" colspan="2" style="background-color: transparent;">
+        &copy; 2023 The Quirky Spoon Cafe. All rights reserved.
+    </td>
+</body>
+</html>
