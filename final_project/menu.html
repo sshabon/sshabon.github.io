@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menus</title>
-  <link rel="stylesheet" href="https://github.com/sshabon/sshabon.github.io/blob/main/final_project/stylesheet.css">
+  <title>Breakfast Menu</title>
+  <link rel="stylesheet" href="/Users/sarashabon/Desktop/ENGH375/final_project/stylesheet1.css">
   <style>
     /* Add your custom CSS styles here */
     body {
-      font-family: "Mermaid", sans-serif;
+      font-family: "Playfair Display", sans-serif;
       margin: 0;
       /* Set the background image and size */
       background-size: cover;
@@ -20,7 +20,6 @@
     }
     header {
       color: #065341;
-      padding: 1rem;
       text-align: center;
     }
     nav {
@@ -55,13 +54,49 @@
       grid-template-columns: repeat(3, 1fr); /* Three equal columns */
       grid-gap: 20px; /* Spacing between grid items */
     }
-
-    /* Style each food item in the menu */
-    .food-item {
-      background-color: transparent; /* Semi-transparent white background */
-      padding: 20px;
-      text-align: center;
+  
+  .image-column img,
+  .text-column img,
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner {
+    position: relative;
+    height: 0;
+    padding-top: 30%; /* Adjust the padding-top to control the aspect ratio (e.g., 30% for 16:9, 56.25% for 9:16) */
+    background-image: url("/Users/sarashabon/Desktop/ENGH375/final_project/images/pexels-isaw-company-1005406.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Media query for screens smaller than 768px (e.g., smartphones) */
+  @media (max-width: 768px) {
+    .banner {
+      margin-top: 40px; /* Adjust the margin-top value for smaller screens */
     }
+  }
+  
+  /* Media query for screens between 768px and 1200px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .banner {
+      margin-top: 60px; /* Adjust the margin-top value for medium-sized screens */
+    }
+  }
+  
+  /* Media query for screens larger than 1200px (e.g., desktops) */
+  @media (min-width: 1201px) {
+    .banner {
+      margin-top: 80px; /* Adjust the margin-top value for larger screens */
+    }
+  }
+  
        /* Style the button links */
     nav .menu-button {
       display: inline-block;
@@ -75,50 +110,47 @@
       font-size: 1.2rem;
       cursor: pointer;
     }
-
+  
     /* Apply different background colors to the buttons on hover */
     nav .menu-button:hover {
       background-color: #2d8f6d;
     }
+    header a {
+        text-decoration: none;
+    }
   </style>
-</head>
-<body>
-  <header>
-    <h3>The Quirky Spoon Cafe</h3>
-  </header>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="menu.html">Menus</a> |
-    <a href="about.html">About Us</a> |
-    <a href="order.html">Order</a>
-  </nav>
-
-  <h1>MENUS</h1>
-  <nav>
-    <a href="menu.html" class="menu-button">Dinner</a> 
-    <a href="lunch.html" class="menu-button">Lunch</a> 
-    <a href="drinks.html" class="menu-button">Drinks</a> 
-  </nav>
-
-  <div class="menu-grid">
-    <!-- First food item -->
-    <div class="food-item">
-      <h2>Food Item 1</h2>
-      <p>Description of Food Item 1</p>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="main.html">The Quirky Spoon Cafe</a>
+      </h1>
+    </header>
+    <nav>
+      <a href="menu.html">Menu</a> |
+      <a href="about.html">About Us</a> |
+      <a href="contact.html">Contact</a> 
+    </nav>
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Breakfast Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
     </div>
-
-    <!-- Second food item -->
-    <div class="food-item">
-      <h2>Food Item 2</h2>
-      <p>Description of Food Item 2</p>
-    </div>
-
-    <!-- Third food item -->
-    <div class="food-item">
-      <h2>Food Item 3</h2>
-      <p>Description of Food Item 3</p>
-    </div>
-
+    
    
     <td align="center" colspan="2" style="background-color: transparent;">
         &copy; 2023 The Quirky Spoon Cafe. All rights reserved.

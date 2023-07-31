@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Quirky Spoon Cafe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/Users/sarashabon/Desktop/ENGH375/final_project/stylesheet1.css">
+<link rel="stylesheet" href="/Users/sarashabon/Desktop/ENGH375/final_project/stylesheet.css">
+<style>
+  /* Add your custom CSS styles here */
+  body {
+    font-family: "Playfair Display", sans-serif;
+    margin: 0;
+    /* Set the background image and size */
+    background-size: cover;
+    background-color: antiquewhite;
+    background-position: center;
+    color: #065341;
+    text-align: center;
+    padding: 5rem 0; /* Adjust the padding to position the text */
+  }
+  header {
+    color: #065341;
+    text-align: center;
+  }
+  nav {
+    color: #065341;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  section {
+    padding: 2rem;
+  }
+  footer {
+    background-color: #333;
+    color:#065341;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+  text-align: center;
+  padding: 0.5rem;
+  }
+  nav a {
+  color: #065341; /* Set the color of the links inside the nav element to white */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Make the links inline elements */
+  margin: 0 0.5rem; /* Add some spacing between the links */
+  background-color: transparent; /* Set the background of the links to transparent */
+  padding: 0.25rem 0.5rem; /* Add some padding to the links (optional) */
+  }
+
+.image-column img,
+.text-column img,
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: sticky;
+  height: 0;
+  padding-top: 30%; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.w3-content {
+  margin-top: -30%;
+  padding-top: 30%;
+  position: relative;
+}
+/* Media query for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+  .banner {
+    margin-top: 40px; /* Adjust the margin-top value for smaller screens */
+  }
+  .w3-content {
+  margin-top: -20%;
+  padding-top: 20%;
+}
+}
+
+/* Media query for screens between 768px and 1200px (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .banner {
+    margin-top: 60px; /* Adjust the margin-top value for medium-sized screens */
+  }
+}
+
+/* Media query for screens larger than 1200px (e.g., desktops) */
+@media (min-width: 1201px) {
+  .banner {
+    margin-top: 80px; /* Adjust the margin-top value for larger screens */
+  }
+}
+
+     /* Style the button links */
+  nav .menu-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #065341;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  /* Apply different background colors to the buttons on hover */
+  nav .menu-button:hover {
+    background-color: #2d8f6d;
+  }
+
+  header a {
+      text-decoration: none;
+  }
+
+  .section-master {
+    height: auto;
+    color: #02594d;
+    text-align: center;
+    background-color: #fffded;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:relative
+}
+.section-master2 {
+    height: auto;
+    color: #02594d;
+    text-align: center;
+    background-color: rgb(249, 225, 193);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:relative
+}
+
+.section-3 {
+    color: #02594d;
+    margin-top: 20px;
+    margin-bottom:20px
+}
+.container-3 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position:relative
+}
+.section-2-columns {
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap-reverse;
+    display:flex
+}
+
+.section-2-columns.reverse-wrap {
+    height: 600px;
+    justify-content: center;
+    align-items:stretch
+}
+.column-11 {
+    background-color: #d9e5db;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    display:flex
+}
+.image-14, .image-15 {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right:auto
+}
+.banner-container {
+  display: flex;
+  flex-direction: column; /* Arrange the children in a column layout */
+  align-items: center; /* Center the children horizontally */
+}
+.banner-text {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="main.html">The Quirky Spoon Cafe</a>
+    </h1>
+  </header>
+  <nav>
+    <a href="menu.html">Menu</a> |
+    <a href="about.html">About Us</a> |
+    <a href="contact.html">Contact</a> 
+  </nav>
+  <div class="banner-container">
+  <div class="banner">
+    <img src="/Users/sarashabon/Desktop/ENGH375/final_project/images/pexels-isaw-company-1005406.jpg" alt="Pastry Main Image" width="1920" style="max-height: 800;"/>
+  </div>
+</div>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1920px">
+  <div class="section-master">
+    <div class="section-3">
+        <div class="container-3 w-container">
+            <p class="paragraph">
+                Inspired by the whimsical charm of everyday life.
+                <br/>
+                Built on the belief that food is an adventure best shared.
+                <br/>
+                For the eclectic souls and curious minds of the neighborhood.
+            </p>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="w3-content" style="max-width:1920px">
+    <div class="section-master2">
+      <div class="section-3">
+          <div class="container-3 w-container">
+            <h5 class="w3-center">Tradition since 2003</h5>
+            <p class="w3-large">At The Quirky Spoon Cafe, we draw inspiration from the whimsical charm of everyday life. Our menu is a delightful adventure of unique flavors and imaginative combinations, crafted with passion and creativity. 
+              <p class="w3-large w3-text-grey w3-hide-medium">Embracing the spirit of togetherness, we believe that food tastes even better when shared. The Quirky Spoon Cafe offers a cozy and welcoming ambiance where friends and strangers alike can gather, savoring each moment and culinary creation.</p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Located in the heart of the neighborhood, The Quirky Spoon Cafe is a haven for eclectic souls and curious minds. Our diverse community of patrons brings laughter, stories, and a sense of belonging, making the cafe a vibrant and cherished part of daily life.</p>
+          </div>
+      </div>
+    </div>
+
+<section class="section-2-columns ">
+    <div class="column-text-centerd w-col w-col-6">
+        <a aria-label="View Our menu" href="menu.html" class="image-link">Menu</a>
+        <img src="/Users/sarashabon/Desktop/ENGH375/final_project/images/pexels-helena-lopes-1394841.jpg" loading="lazy" alt="" class="image-14"/>
+    </div>
+    <div class="column-11 w-col w-col-6">
+        <div class="container-column-text w-container">
+            <p class="paragraph-2">Enjoy our current offering of dishes, made with local ingredients.</p>
+            <a aria-label="View Our menu" href="menu.html" class="button-2">view our menu</a>
+        </div>
+    </div>
+    
+  <!-- About Section -->
+  <!-- <div class="w3-row w3-padding-64" id="about">
+
+    <div class="w3-col m6 w3-padding-large banner-text">
+      <h5 class="w3-center">Tradition since 2003</h5>
+      <p class="w3-large">At The Quirky Spoon Cafe, we draw inspiration from the whimsical charm of everyday life. Our menu is a delightful adventure of unique flavors and imaginative combinations, crafted with passion and creativity. 
+      <p class="w3-large w3-text-grey w3-hide-medium">Embracing the spirit of togetherness, we believe that food tastes even better when shared. The Quirky Spoon Cafe offers a cozy and welcoming ambiance where friends and strangers alike can gather, savoring each moment and culinary creation.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Located in the heart of the neighborhood, The Quirky Spoon Cafe is a haven for eclectic souls and curious minds. Our diverse community of patrons brings laughter, stories, and a sense of belonging, making the cafe a vibrant and cherished part of daily life.</p>
+    </div>
+  </div> -->
+
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>

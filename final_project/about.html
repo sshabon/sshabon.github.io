@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menus</title>
-  <link rel="stylesheet" href="https://github.com/sshabon/sshabon.github.io/blob/main/final_project/stylesheet.css">
+  <title>About Us</title>
+  <link rel="stylesheet" href="/Users/sarashabon/Desktop/ENGH375/final_project/stylesheet1.css">
   <style>
     /* Add your custom CSS styles here */
     body {
-      font-family: "Mermaid", sans-serif;
+      font-family: "Playfair Display", sans-serif;
       margin: 0;
       /* Set the background image and size */
       background-size: cover;
@@ -20,7 +20,6 @@
     }
     header {
       color: #065341;
-      padding: 1rem;
       text-align: center;
     }
     nav {
@@ -55,20 +54,97 @@
       grid-template-columns: repeat(3, 1fr); /* Three equal columns */
       grid-gap: 20px; /* Spacing between grid items */
     }
-
+  
+  .image-column img,
+  .text-column img,
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner {
+    position: relative;
+    height: 0;
+    padding-top: 30%; /* Adjust the padding-top to control the aspect ratio (e.g., 30% for 16:9, 56.25% for 9:16) */
+    background-image: url("/Users/sarashabon/Desktop/ENGH375/final_project/images/pexels-isaw-company-1005406.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Media query for screens smaller than 768px (e.g., smartphones) */
+  @media (max-width: 768px) {
+    .banner {
+      margin-top: 40px; /* Adjust the margin-top value for smaller screens */
+    }
+  }
+  
+  /* Media query for screens between 768px and 1200px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .banner {
+      margin-top: 60px; /* Adjust the margin-top value for medium-sized screens */
+    }
+  }
+  
+  /* Media query for screens larger than 1200px (e.g., desktops) */
+  @media (min-width: 1201px) {
+    .banner {
+      margin-top: 80px; /* Adjust the margin-top value for larger screens */
+    }
+  }
+  
+       /* Style the button links */
+    nav .menu-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #065341;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  
+    /* Apply different background colors to the buttons on hover */
+    nav .menu-button:hover {
+      background-color: #2d8f6d;
+    }
+    header a {
+        text-decoration: none;
+    }
   </style>
-</head>
-<body>
-  <header>
-    <h3>The Quirky Spoon Cafe</h3>
-  </header>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="menu.html">Menus</a> |
-    <a href="about.html">About Us</a> |
-    <a href="order.html">Order</a>
-  </nav>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="main.html">The Quirky Spoon Cafe</a>
+      </h1>
+    </header>
+    <nav>
+      <a href="menu.html">Menu</a> |
+      <a href="about.html">About Us</a> |
+      <a href="contact.html">Contact</a> 
+    </nav>
 
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="about">
+      <h1>About Us</h1><br>
+      <p>In the heart of a bustling urban neighborhood, a young and ambitious chef named Sara stumbled upon a quaint and forgotten corner shop. Intrigued by its potential, she saw an opportunity to turn it into something extraordinary—a place where people could escape the daily grind and experience a taste of delight in their busy lives.</p>
+      <p>With a flair for creativity and an appreciation for the unconventional, Sara wanted her cafe to stand out from the sea of ordinary coffee shops. As she pondered over a name, she found inspiration in an old, quirky spoon she had inherited from her grandmother. The spoon's twisted handle and colorful polka dots reminded her of cherished childhood memories spent in her grandmother's kitchen, where imagination and experimentation were encouraged.</p>
+      <p>"The Quirky Spoon Cafe!" Sara exclaimed. The name perfectly embodied her vision of a place that celebrated uniqueness and welcomed customers into a space where the ordinary was transformed into something extraordinary.</p>
+      <p>Fuelled by passion and determination, Sara poured her heart into renovating the space. She created an atmosphere that felt like a cozy and welcoming extension of her own home. Vintage furnishings, handcrafted decor, and a splash of vibrant colors filled the cafe, giving it a distinct personality that exuded warmth and charm.</p>
+      <p>Sara's culinary skills were the centerpiece of the cafe's success. Her menu featured an assortment of comfort foods and innovative dishes that combined familiar flavors with playful twists. She experimented with new ingredients, introducing exciting culinary experiences like never before.</p>
+      <p>"The Quirky Spoon Cafe" quickly became a local hotspot, attracting a diverse crowd of customers, from students seeking a creative space to professionals looking for a reprieve from their daily routines. Sara's warm hospitality and unique offerings fostered a sense of community, making the cafe a gathering spot for friends and family to create cherished memories.</p>
+      <p>As word of mouth spread, the cafe's popularity grew beyond the neighborhood. Yet, despite the success, Sara remained true to her roots and continued to infuse the cafe with her inventive spirit, constantly exploring fresh ideas and pushing culinary boundaries.</p>
+      <p>The quirky spoon that inspired the cafe's name found a place of honor on a shelf behind the counter—a symbol of the cafe's philosophy of finding joy in the little things and embracing the beauty of imperfection.</p>
+      <p>And so, "The Quirky Spoon Cafe" became a beloved fixture in the city's culinary landscape, thanks to the determination and creativity of Sara. Her journey from a forgotten corner to a thriving cafe was a testament to the power of passion, imagination, and a simple, quirky spoon that sparked it all.</p>
+    </div>
 
     <td align="center" colspan="2" style="background-color: transparent;">
         &copy; 2023 The Quirky Spoon Cafe. All rights reserved.
