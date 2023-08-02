@@ -1,1 +1,25 @@
 /* Please insert all your CSS code into this document */
+
+/* FIRST header */
+header:first-child {
+    width: 100%;
+    height: 80px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Footer on every page */
+  footer {
+    width: 100%;
+    height: 60px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #wrapper {
+    margin-top: 80px; /* Set this to the height of your FIRST header in pixels */
+    margin-bottom: 60px; /* Set this to the height of your footer in pixels */
+  }
+  
