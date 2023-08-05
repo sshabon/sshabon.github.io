@@ -19,7 +19,38 @@ header:first-child {
   }
 
   #wrapper {
-    margin-top: 80px; /* Set this to the height of your FIRST header in pixels */
-    margin-bottom: 60px; /* Set this to the height of your footer in pixels */
+    margin-top: 80px; 
+    margin-bottom: 60px; 
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    padding: 20px; 
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    margin-left: 220px; 
+    padding: 20px; 
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
   }
   
