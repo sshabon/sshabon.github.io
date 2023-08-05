@@ -66,4 +66,28 @@ img.body1 {
 	width: 300px;
 	}
 
+/* page two  */
 
+aside.two {
+    float: left;
+    min-width: 130px;
+}
+
+div.articles2 {
+    min-height: 400px;
+    min-width: 350px;
+    padding: 0 30px;
+    overflow:scroll;
+}
+
+.left2 {
+    float: left;
+    margin: 10px 35px 10px 0px;
+    width: 170px;
+}
+
+.right2 {
+    float: right;
+    margin: 10px 0px 10px 35px;
+    width: 170px;
+}
