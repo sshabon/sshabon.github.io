@@ -78,4 +78,5 @@ header:first-child {
 
   .textbox {
     overflow:scroll;
+    position: absolute;
   }
