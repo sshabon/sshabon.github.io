@@ -70,3 +70,7 @@ header:first-child {
   img {
     float: right;
   }
+
+  .after-float {
+    clear: left;
+  }
