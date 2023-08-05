@@ -75,10 +75,6 @@ header:first-child {
     float: right;
   }
 
-  .after-float {
-    clear: left;
-  }
-
   .textbox {
     overflow:scroll;
     position: absolute;
