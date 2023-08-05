@@ -1,82 +1,69 @@
 /* Please insert all your CSS code into this document */
 
-/* FIRST header */
-header:first-child {
-    width: 100%;
-    height: 80px; 
+h1 {
+    padding: .2em .5em 1em;
+}
+
+h2 {
+    padding: .2em;
+    text-align: center;
+}
+
+header.title {
     position: fixed;
     top: 0;
-    left: 0;
-  }
-  
+    height: 75px;
+    width: 100%;
+    background: white;
+    float: none;
+}
+
+.banner {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
   /* Footer on every page */
   footer {
     width: 100%;
-    height: 70px; 
+    height: 75px; 
     position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-
-  .wrapper {
-    margin-top: 80px; 
-    margin-bottom: 60px; 
-    position: relative;
-  }
-  
-  body {
-    margin-bottom: 120px;
-  }
-  
-  .container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .sidebar {
-    position: absolute;
     top: 0;
+    float: none;
+  }
+
+  #wrapper {
+   margin: 80px 0 105px 0;
+  }
+  
+  article {
+    float: none;
+  }
+
+  article.p:last-of-type {
+    padding:0 0 2em;
+  }
+
+  /* Page one mods   */
+
+  aside.one {
+    position: fixed;
     left: 0;
-    width: 200px; 
-    padding: 20px; 
-    background-color: #f0f0f0;
-  }
-  
-  .content {
-    margin-left: 220px; 
-    padding: 20px; 
-  }
-  
-  footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav {
-    float: left;
-    position: absolute;
-    left: 0px;
-    width: 200px;
-  }
-  section {
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 10px;
+    width: 160px;
+    padding: 0 .4em;
   }
 
-  .clearfix {
-    overflow: auto;
-    zoom: 1;
-  }
+  div.articles1 {
+	position: fixed;
+	left: 160px;
+	height: 400px;
+	width: 750px;
+	padding: 0 .2em;
+	overflow: scroll;
+	}
 
-  img {
-    float: right;
-  }
+img.body1 {
+	width: 300px;
+	}
 
-  .textbox {
-    overflow:scroll;
-    position: absolute;
-    padding: 10px;
-  }
+
