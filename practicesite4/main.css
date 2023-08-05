@@ -54,3 +54,19 @@ header:first-child {
     text-align: center;
   }
   
+  nav {
+    float: left;
+    width: 200px;
+  }
+  section {
+    margin-left: 200px;
+  }
+
+  .clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+  img {
+    float: right;
+  }
