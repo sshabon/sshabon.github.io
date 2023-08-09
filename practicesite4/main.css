@@ -151,13 +151,26 @@ div.article4 {
 
 .box {
     display: inline-block;
-    width: 200px;
+    width: calc(50% - 1em);
     height: 100px;
     margin: 1em;
     object-fit: none;
 }
 
-img.five {
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
     height: 100vh;
     width: 50vw;
+    object-fit: none;
+}
+
+.gallery figure {
+    flex: 0 0 calc(50% -1em);
+    margin: 1em;
+    text-align: center;
 }
