@@ -107,13 +107,42 @@ div.article3 {
 }
 
 .right3 {
-    float:right;
+    float: right;
     margin: 1em 0em 1em 2em;
     width: 25%;
 }
 
 .left3 {
-    float:left;
+    float: left;
+    margin: 1em 2em 1em 0;
+    width: 25%
+}
+
+/* page four  */
+
+aside.four {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    min-width: 130px;
+}
+
+div.article4 {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 400px;
+    min-width: 350px;
+    width: 75%;
+}
+
+.right4 {
+    float: right;
+    margin: 1em 0em 1em 2em;
+    width: 25%;
+}
+
+.left4 {
+    float: left;
     margin: 1em 2em 1em 0;
     width: 25%
 }
