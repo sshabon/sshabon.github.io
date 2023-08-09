@@ -157,12 +157,6 @@ div.article4 {
     object-fit: none;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .gallery img {
     height: 100vh;
     width: 50vw;
