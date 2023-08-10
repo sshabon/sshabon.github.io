@@ -2703,3 +2703,10 @@ input, select, textarea {
 				}
 
 	}
+
+	/* Added by Sara for functions  */
+	.menu-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+		grid-gap: 20px; /* Spacing between grid items */
+	  }
